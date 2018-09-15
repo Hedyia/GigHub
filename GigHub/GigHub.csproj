@@ -217,6 +217,10 @@
     <Compile Include="Migrations\201809150631287_PopulateGenresTable.Designer.cs">
       <DependentUpon>201809150631287_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809152147342_AddFKtoGigsTable.cs" />
+    <Compile Include="Migrations\201809152147342_AddFKtoGigsTable.Designer.cs">
+      <DependentUpon>201809152147342_AddFKtoGigsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -317,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809150631287_PopulateGenresTable.resx">
       <DependentUpon>201809150631287_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809152147342_AddFKtoGigsTable.resx">
+      <DependentUpon>201809152147342_AddFKtoGigsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
