@@ -22,6 +22,7 @@ namespace GigHub.Controllers
             };
             return View(viewModel);
         }
+        [ValidateAntiForgeryToken]
         [Authorize]
         [HttpPost]
         public ActionResult Create(GigFormViewModel viewModel)
