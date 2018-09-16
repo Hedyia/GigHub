@@ -1,8 +1,12 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-size: 17px;
 }
-
+body,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -21,4 +25,51 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/*Bootstrap Overrides*/
+.navbar-inverse {
+    background-color: #FF4342;
+    border-color: #FF4342;
+}
+.navbar-inverse .navbar-nav > li > a {
+
+    color: #FFF;
+
+}
+.navbar-inverse .navbar-brand {
+
+    color: #FFF;
+
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:700;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #ff01004d;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    font-size: 18px;
+    padding: 6px 18px;
+    border-radius: 20px;
+}
+
+.form-control:focus{
+    border-color: #2196f3;
+    box-shadow:none;
+}
+.btn {
+    padding: 8px 24px;
+    border-radius:20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #fe3636;
+    border-color: #fe3636;
 }
