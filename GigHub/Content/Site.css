@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 90px;
     padding-bottom: 20px;
     font-size: 17px;
 }
@@ -81,3 +81,48 @@ textarea {
     background-color: #fe3636;
     border-color: #fe3636;
 }
+
+/*Page-Level Styles*/
+.gigs{
+    list-style:none;
+}
+.gigs > li{
+    position:relative;
+    margin-bottom: 30px;
+
+}
+.gigs >li .date{
+    width:60px;
+    text-align:center;
+}
+.gigs > li .date .month{
+    background-color:red;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 8px 8px 0 0 ;
+}
+.gigs > li .date .day{
+    font-size: 20px;
+    font-weight:bold;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 6px 20px;
+    border-radius: 0 0 8px 8px ;
+
+}
+
+.gigs > li .details{
+    position:absolute;
+    top: 0;
+    left: 70px;
+}
+.gigs > li .details .artist{
+    display:block;
+    font-weight:bold;
+}
+    .gigs > li .details .genre{
+        font-size:16px;
+    }
