@@ -122,9 +122,9 @@ textarea {
 .gigs > li .details .artist{
     display:block;
     font-weight:bold;
-        width: 160px;
+        width: 190px;
 }
+
+.gigs > li .details .genre{
+    font-size:16px;
 }
-    .gigs > li .details .genre{
-        font-size:16px;
-    }
